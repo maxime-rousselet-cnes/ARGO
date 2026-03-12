@@ -1,0 +1,10 @@
+aiohttp
+black
+fsspec
+gsw
+isort
+matplotlib
+pylint
+pytest
+requests
+xarray
