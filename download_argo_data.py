@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
         for path in all_files:
 
-            if not path.endswith(suffix=".nc"):
+            if not path.endswith(".nc"):
 
                 continue
 
@@ -83,7 +83,7 @@ if __name__ == "__main__":
 
                 continue
 
-            relative_path = path.replace(old=BASE_URL + "/", new="")
+            relative_path = path.replace(BASE_URL + "/", "")
             redefined_local_path = os.path.join(LOCAL_ROOT, relative_path)
             os.makedirs(name=os.path.dirname(p=redefined_local_path), exist_ok=True)
 
