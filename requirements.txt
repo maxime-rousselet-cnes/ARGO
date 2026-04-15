@@ -2,8 +2,10 @@ aiohttp
 black
 fsspec
 gsw
+ipykernel
 isort
 matplotlib
+netCDF4
 pylint
 pytest
 requests
